@@ -1,0 +1,43 @@
+{
+    "name": "worker-gist",
+    "version": "0.1.0",
+    "description": "GitHub Gist as KV, for Cloudflare Workers.",
+    "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
+    "license": "MIT",
+    "keywords": [
+        "cloudflare",
+        "workers",
+        "github",
+        "gist",
+        "kv"
+    ],
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "jest --coverage",
+        "prepare": "npm run build && npm run docs",
+        "dev": "tsup --watch",
+        "build": "npm run format && tsup",
+        "docs": "typedoc ./src/",
+        "format": "prettier --write '**/*.{js,ts,jsx,tsx,json,yml,yaml,md,html}' '!lib' '!docs'",
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^3.13.0",
+        "@types/jest": "^28.1.3",
+        "@types/node": "^18.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.30.0",
+        "@typescript-eslint/parser": "^5.30.0",
+        "eslint": "^8.18.0",
+        "eslint-config-prettier": "^8.5.0",
+        "jest": "^28.1.2",
+        "prettier": "^2.7.1",
+        "ts-jest": "^28.0.5",
+        "tsup": "^6.1.2",
+        "typedoc": "^0.23.2",
+        "typescript": "^4.7.4"
+    }
+}
