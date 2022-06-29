@@ -1,6 +1,6 @@
 {
     "name": "worker-gist",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "GitHub Gist as KV, for Cloudflare Workers.",
     "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
     "license": "MIT",

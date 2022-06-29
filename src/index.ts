@@ -51,13 +51,11 @@ export class GistStore {
             },
         });
 
-        console.log(res);
-
         if (res.ok !== true) {
             return undefined;
         }
 
-        const { data } = await res.json();
+        const data = await res.json<{ files?: { [key: string]: { content?: string } } }>();
 
         return data?.files?.[key]?.content;
     }
