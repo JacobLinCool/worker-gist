@@ -2,7 +2,7 @@
 
 GitHub Gist as KV, for Cloudflare Workers.
 
-It is slower than KV, but it helps to keep the KV `write` opration as low as possible.
+It is slower than KV, but it helps to keep the number of KV `write` operation as low as possible.
 
 ## Usage
 

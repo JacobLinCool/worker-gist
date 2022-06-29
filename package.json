@@ -1,7 +1,7 @@
 {
     "name": "worker-gist",
     "version": "0.1.1",
-    "description": "GitHub Gist as KV, for Cloudflare Workers.",
+    "description": "GitHub Gist as KV, for Cloudflare Workers. It helps to keep the number of KV write operation as low as possible.",
     "author": "JacobLinCool <jacoblincool@gmail.com> (https://github.com/JacobLinCool)",
     "license": "MIT",
     "keywords": [
