@@ -37,7 +37,7 @@
         "prettier": "^2.7.1",
         "ts-jest": "^28.0.5",
         "tsup": "^6.1.2",
-        "typedoc": "^0.23.2",
+        "typedoc": "^0.25.0",
         "typescript": "^4.7.4"
     }
 }
